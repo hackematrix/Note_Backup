@@ -1,0 +1,6 @@
+//清理界面
+
+ cls := Module[{nb},
+        nb = EvaluationNotebook[];
+        SelectionMove[nb, All, Notebook];
+        NotebookDelete@nb]
