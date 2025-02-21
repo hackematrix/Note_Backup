@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // fetch调用url
+        fetch('https://imgapi.lie.moe/random')
+        .then(response=>{
+            if(!response.ok){
+                throw new Error("Network response was not ok");
+            }
+            return response.url;
+        })
+        .then(imageUrl=>{
+            document.body.style.backgroundImage=`url('${imageUrl}')`;
+            document.body.style.backgroundSize="cover";
+            document.body.style.backgroundPosition="center 30%";
+            document.body.style.backgroundRepeat="no-repeat";
+            document.body.style.height="100vh";
+        })
+        .catch(error=>{
+            console.error('there was a problem',error)
+        })
+    </script>
+</body>
+</html>
