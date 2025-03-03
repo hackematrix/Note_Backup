@@ -1,0 +1,28 @@
+h3{
+    text-align: center;
+    /* text-align对齐 */
+    text-decoration: underline;
+    text-transform:capitalize;
+    /* text-transform 定义文本的大小写 */
+    
+    color:#ff0000;
+    font-size:30px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-style:italic;
+
+}
+
+.p1{
+    text-align:center;
+    text-transform:capitalize;
+    
+}
+
+.p2{
+    text-indent: 50px;
+    text-align: right;
+    color:#fff000;
+    font-weight:100px;
+    font-style: normal;
+}
