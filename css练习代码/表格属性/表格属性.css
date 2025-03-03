@@ -1,0 +1,16 @@
+table,td{
+    border: 3px solid green;
+}
+
+table{
+    border-collapse:collapse;
+    /* 折叠边框 */
+
+    width:500px;
+    /* 边框宽度 */
+    height:300px;
+}
+
+td{
+    text-align:center;
+}
