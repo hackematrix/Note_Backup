@@ -1,0 +1,19 @@
+.blue{
+    color:#0000ff;
+    font-size:30px;
+     font-weight:blod; 
+     /* blod表示为粗体 */
+}
+
+.red{
+    color:rgb(255,0,0);
+    font-style:italic;
+    /* italic 斜体 */
+}
+
+.grey{
+    color:rgba(0,0,0,0.5);
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family 字体属性设置 */
+
+}
