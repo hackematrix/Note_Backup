@@ -1,0 +1,14 @@
+.box1{
+    width:400px;
+    height:400px;
+    background-color:#ff0000;
+
+}
+
+.box2{
+    width:400px;
+    height:400px;
+    background-image:url("D:\\piture\\Figure_1.png");
+    background-size:cover;
+    background-position: center;
+}
