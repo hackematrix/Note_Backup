@@ -1,0 +1,13 @@
+div{
+    width:100px;
+    height:100px;
+    background-color:blue;
+    
+    padding:50px 10px;
+    /*padding两个值:上下 左右 */
+
+     border:5px solid red; 
+    
+
+    margin:50px 10px; 
+}
