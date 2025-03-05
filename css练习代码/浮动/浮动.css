@@ -1,0 +1,17 @@
+.box{
+    width:200px;
+    height:200px;
+    background-color:aqua;
+    float:left;
+}
+
+.container{
+    width:400px;
+    height:400px;
+    background-color:blueviolet;
+}
+
+img{
+    width:300px;
+    float:left;
+}
