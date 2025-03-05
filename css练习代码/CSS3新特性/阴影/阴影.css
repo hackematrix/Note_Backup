@@ -1,0 +1,8 @@
+.box{
+    width:400px;
+    height:400px;
+    background-color:blueviolet;
+    margin:0 auto; 
+    /* 第二个参数是左右的长度平均分配 */
+    box-shadow:10px 10px 20px rgba(0,0,0,0.5);
+}
