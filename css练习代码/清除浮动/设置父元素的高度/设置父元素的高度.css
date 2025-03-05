@@ -1,0 +1,20 @@
+.container{
+    width:500px;
+    height:500px;
+    background-color:#888;
+}
+
+.box{
+    width:100px;
+    height:100px;
+    background-color:aqua;
+    margin:5px;
+    /* 边距 */
+    float:left;
+}
+
+.text{
+    width:100px;
+    height:100px;
+    background-color:blueviolet;
+}
