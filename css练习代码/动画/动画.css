@@ -1,0 +1,26 @@
+div{
+    width:200px;
+    height:200px;
+    background-color:red;
+    animation: MyAnime 3s linear 0s infinite;
+}
+
+div:hover{
+    animation-play-state: paused;
+}
+
+
+@keyframes MyAnime {
+    0%{
+        width:200px;
+        background-color:red;
+    }
+    50%{
+        width:400px;
+        background-color:black;
+    }
+    100%{
+        width:200px;
+        background-color:red;
+    }
+}
