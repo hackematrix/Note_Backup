@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@latest"></script>
+
+</head>
+<body>
+    <div id="app">
+
+    <input v-model="text"/>
+    <p>{{ text.split("").reverse().join("")}}</p>
+    </div>
+
+    <script>
+        const app={
+            data(){
+                return {
+                    text:""
+                }
+            }
+
+        };
+
+        Vue.createApp(app).mount("#app");
+    </script>
+</body>
+</html>
