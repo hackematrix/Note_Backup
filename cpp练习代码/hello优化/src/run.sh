@@ -1,2 +1,3 @@
 make
+make clean
 ./hello
