@@ -1,0 +1,17 @@
+div{
+  height:200px;
+  width:400px;
+  box-sizing: border-box;
+  display:inline-block;
+}
+
+#div1{
+  background-color:rgb(255,0,0);
+}
+
+#div2{
+  background-color: rgb(0,0,255);
+  /* padding:0 50px; */
+  /* border:10px solid rgb(0,0,0); */
+  padding:0 50px;
+}
