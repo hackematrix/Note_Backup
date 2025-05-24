@@ -1,0 +1,16 @@
+.target{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  width:200px;
+  height:200px;
+  border:solid;
+}  
+
+
+
+#wrapper{
+  justify-content: space-between;
+  display: flex;
+
+}
